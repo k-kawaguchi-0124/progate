@@ -1,7 +1,13 @@
 {
   "name": "npm_tutorial",
-  "type":"module",
+  "type": "module",
   "scripts": {
+    "hello": "echo `Hello World`",
+    "format:check": "prettier --check 'src/**/*.js'",
+    "format:fix": "prettier --eslint fix 'src/**/*.js'"
   },
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
 }

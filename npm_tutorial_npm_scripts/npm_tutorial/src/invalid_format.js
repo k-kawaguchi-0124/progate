@@ -1,4 +1,5 @@
-const hello = (message) => {
-  console.log(`Hello! ${message}`) }
+const hello = message => {
+  console.log(`Hello! ${message}`);
+};
 
-hello('world')
+hello("world");
