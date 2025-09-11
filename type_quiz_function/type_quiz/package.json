@@ -1,0 +1,25 @@
+{
+  "name": "type_quiz",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint:check": "eslint",
+    "lint:fix": "eslint --fix",
+    "format:check": "prettier --check '**/*.ts'",
+    "format:fix": "prettier --write '**/*.ts'"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/node": "22.13.4",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "prettier": "^3.5.1",
+    "typescript": "5.7.3",
+    "typescript-eslint": "^8.24.1"
+  },
+  "overrides": {
+    "glob": "11.0.1"
+  }
+}
