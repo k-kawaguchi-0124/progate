@@ -1,0 +1,4 @@
+# Progate configuration
+.progate/
+
+node_modules/
