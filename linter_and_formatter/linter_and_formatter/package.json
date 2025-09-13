@@ -1,0 +1,20 @@
+{
+  "name": "linter_and_formatter",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "scripts": {
+    "format:check": "prettier --check 'src/*.js'",
+    "format:fix": "prettier --write 'src/*.js'",
+    "lint:check": "eslint src/*.js",
+    "lint:check:console": "eslint src/console.js",
+    "lint:check:fibonacci": "eslint src/fibonacci.js",
+    "lint:fix": "eslint --fix src/*.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.0"
+  }
+}
